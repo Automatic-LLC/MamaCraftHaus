@@ -34,7 +34,7 @@ export function signInView({ settings, message, onConnect, onDemo }) {
 
   return h("main", { class: "signin" },
     h("div", { class: "signin-inner" },
-      h("p", { class: "brand-mark" }, "MamaCraftHouz"),
+      h("p", { class: "brand-mark" }, "Mama Craft Haus"),
       h("h1", "Connect to your shop"),
       h("p", { class: "lead" }, "Paste your shop key to add and edit products. You only do this once on each phone or computer."),
       form,
@@ -42,7 +42,7 @@ export function signInView({ settings, message, onConnect, onDemo }) {
         h("summary", "How do I get a key?"),
         h("ol", {},
           h("li", "Open ", h("a", { href: "https://github.com/settings/personal-access-tokens/new", target: "_blank", rel: "noopener" }, "github.com/settings/personal-access-tokens/new"), " and sign in to GitHub."),
-          h("li", "Give it a name, like ", h("em", "MamaCraftHouz admin"), ". Pick an expiration (1 year is fine)."),
+          h("li", "Give it a name, like ", h("em", "Mama Craft Haus admin"), ". Pick an expiration (1 year is fine)."),
           h("li", h("strong", "Repository access"), ": choose “Only select repositories”, then pick ", h("strong", `${settings.owner}/${settings.repo}`), "."),
           h("li", h("strong", "Permissions"), ": open “Repository permissions”, find ", h("strong", "Contents"), " and set it to ", h("strong", "Read and write"), "."),
           h("li", "Tap “Generate token”, copy the long code, and paste it above."),

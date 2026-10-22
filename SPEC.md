@@ -1,4 +1,4 @@
-# MamaCraftHouz — Build Spec (shared contract)
+# Mama Craft Haus — Build Spec (shared contract)
 
 Static site hosted on **GitHub Pages** (later a custom domain). **No build step**: plain HTML, CSS, and
 vanilla JS ES modules. Must work when served from a sub-path (`https://user.github.io/MamaCraftHouz/`),

@@ -1,4 +1,4 @@
-/* MamaCraftHouz admin. Mobile-first. Colors/fonts come ONLY from ../css/theme.css variables. */
+/* Mama Craft Haus admin. Mobile-first. Colors/fonts come ONLY from ../css/theme.css variables. */
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--font-body); font-size: 16px; line-height: 1.5; }

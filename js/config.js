@@ -1,8 +1,8 @@
 // Shop-wide settings. Edit these values; no code changes needed.
 export const config = {
-  shopName: "MamaCraftHouz",
+  shopName: "Mama Craft Haus",
   tagline: "Handmade custom gifts, glassware & shirts — made with love at home.",
-  shopEmail: "hello@mamacrafthouz.com", // TODO: replace with the real inbox
+  shopEmail: "hello@mamacrafthaus.com", // TODO: replace with the real inbox
   phone: "",
   location: "", // e.g. "Springfield, MO — local pickup available"
   social: { facebook: "", instagram: "", tiktok: "", etsy: "" },

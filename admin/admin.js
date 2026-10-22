@@ -1,4 +1,4 @@
-// MamaCraftHouz admin: boot, sign-in, shell and router.
+// Mama Craft Haus admin: boot, sign-in, shell and router.
 import { h, toast, confirmBox, clear } from "./ui.js";
 import { app, onChange, go, setDirty, notify, errorMessage } from "./state.js";
 import { loadSettings, createStore, getToken, setToken, clearToken, getMode, setMode } from "./store.js";
@@ -79,7 +79,7 @@ async function startDemo() {
 
 function showSignIn(message) {
   window.onbeforeunload = null;
-  document.title = "Shop admin · MamaCraftHouz";
+  document.title = "Shop admin · Mama Craft Haus";
   clear(root).append(signInView({
     settings: app.settings, message,
     onConnect: (token) => connectGitHub(token),
@@ -116,7 +116,7 @@ function showShell() {
     h("a", { class: "skip", href: "#main", onclick: (e) => { e.preventDefault(); main.focus(); } }, "Skip to content"),
     h("header", { class: "topbar" },
       h("div", { class: "topbar-in" },
-        h("span", { class: "brand" }, "MamaCraftHouz ", h("small", "Admin")),
+        h("span", { class: "brand" }, "Mama Craft Haus ", h("small", "Admin")),
         h("span", { class: `pill ${demo ? "pill-demo" : "pill-live"}`, id: "mode-pill" }, demo ? "Demo mode" : `${app.settings.owner}/${app.settings.repo}`),
         h("a", { class: "toplink", href: "../", target: "_blank", rel: "noopener" }, "View site"),
         h("button", { type: "button", class: "toplink", id: "signout-top", onclick: () => app.actions.signOut() }, demo ? "Exit demo" : "Sign out"),
@@ -171,7 +171,7 @@ function renderRoute({ keepScroll = false } = {}) {
   const y = window.scrollY;
   main.replaceChildren(view);
   shell.classList.toggle("is-editor", editor);
-  document.title = `${title} · MamaCraftHouz admin`;
+  document.title = `${title} · Mama Craft Haus admin`;
   renderNav(activeTab);
   if (keepScroll) window.scrollTo(0, y);
   else {

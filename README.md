@@ -1,6 +1,6 @@
-# MamaCraftHouz
+# Mama Craft Haus
 
-Website for MamaCraftHouz: handmade custom champagne glasses, Christmas ornaments, Easter baskets,
+Website for Mama Craft Haus: handmade custom champagne glasses, Christmas ornaments, Easter baskets,
 custom shirts and gifts.
 
 - **Storefront:** home, shop with category filters, product and bundle pages, cart, custom-order form, about.

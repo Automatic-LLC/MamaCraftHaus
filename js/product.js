@@ -13,7 +13,7 @@ const root = $("#product");
 const params = new URLSearchParams(location.search);
 
 function notFound(what = "item") {
-  setMeta("Not found | MamaCraftHouz", "That item could not be found.");
+  setMeta("Not found | Mama Craft Haus", "That item could not be found.");
   root.removeAttribute("aria-busy");
   root.innerHTML = `<div class="notice center"><h1>We couldn't find that ${what}</h1>
     <p>It may have been removed or the link may be old.</p>
@@ -86,7 +86,7 @@ const qtyHtml = `<div class="field qty-field"><label for="qty">Quantity</label>
 
 function renderProduct(catalog, p) {
   const cat = findCategory(catalog, p.category);
-  setMeta(`${p.name} | MamaCraftHouz`, (p.description || "").split("\n")[0].slice(0, 155));
+  setMeta(`${p.name} | Mama Craft Haus`, (p.description || "").split("\n")[0].slice(0, 155));
   const og = document.querySelector('meta[property="og:image"]');
   if (og) og.setAttribute("content", productImage(p));
   const images = (p.images || []).map(resolveAsset);
@@ -132,7 +132,7 @@ function renderProduct(catalog, p) {
 }
 
 function renderBundle(catalog, b) {
-  setMeta(`${b.name} | MamaCraftHouz`, (b.description || "").slice(0, 155));
+  setMeta(`${b.name} | Mama Craft Haus`, (b.description || "").slice(0, 155));
   const og = document.querySelector('meta[property="og:image"]');
   if (og) og.setAttribute("content", bundleImage(catalog, b));
   const retail = bundleRetailTotal(catalog, b);

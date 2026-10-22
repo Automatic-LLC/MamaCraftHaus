@@ -1,4 +1,4 @@
-# MamaCraftHouz Shop Admin: Owner's Guide
+# Mama Craft Haus Shop Admin: Owner's Guide
 
 This is your private control panel. You can add products, change prices and descriptions, upload photos, and make bundles, all from your phone. No computer skills needed.
 
@@ -17,7 +17,7 @@ This makes it open like an app.
 Your "key" is a long secret code that lets the admin page save changes to your website. You make it once on GitHub, then paste it into the admin page on each phone or computer you use.
 
 1. Go to **github.com/settings/personal-access-tokens/new** and sign in.
-2. **Token name:** type `MamaCraftHouz admin`.
+2. **Token name:** type `Mama Craft Haus admin`.
 3. **Expiration:** choose 1 year. (When it runs out, just make a new one the same way.)
 4. **Repository access:** choose **Only select repositories**, then pick **MamaCraftHouz**.
 5. **Permissions:** tap **Repository permissions**, find **Contents**, and change it to **Read and write**. Leave everything else alone.

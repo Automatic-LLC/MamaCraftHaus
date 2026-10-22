@@ -67,7 +67,7 @@ export function settingsView() {
     card("Backup",
       h("p", "Download a copy of everything in your shop, or restore one."),
       h("div", { class: "btn-row" },
-        h("button", { type: "button", class: "btn btn-secondary", id: "st-export", onclick: () => downloadText(`mamacrafthouz-backup-${stamp()}.json`, toJSON(app.catalog)) }, "Export backup"),
+        h("button", { type: "button", class: "btn btn-secondary", id: "st-export", onclick: () => downloadText(`mamacrafthaus-backup-${stamp()}.json`, toJSON(app.catalog)) }, "Export backup"),
         h("label", { class: "btn btn-secondary", id: "st-import-label" }, fileIn, h("span", "Import JSON")),
       ),
       demo && h("p", { class: "hint" }, "In demo mode this is also how you keep your work: download the file."),
