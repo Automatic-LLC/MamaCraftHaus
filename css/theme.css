@@ -1,0 +1,45 @@
+/* ==========================================================
+   MamaCraftHouz theme tokens — change the color scheme HERE.
+   Every other stylesheet uses these variables only.
+   ========================================================== */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito+Sans:wght@400;600;700&display=swap");
+
+:root {
+  /* Brand browns */
+  --brown-900: #3b2a1e;
+  --brown-700: #5c4130;
+  --brown-500: #8a6448;
+  --brown-300: #c4a283;
+  --tan-200: #e6d3bd;
+  --cream-100: #f6eee3;
+  --cream-50: #fbf7f1;
+
+  /* Accents */
+  --sage: #7d8b6a;
+  --rose: #b97a6e;
+
+  /* Semantic roles */
+  --bg: var(--cream-50);
+  --surface: #ffffff;
+  --surface-alt: var(--cream-100);
+  --text: var(--brown-900);
+  --text-muted: #6f5a4a;
+  --border: var(--tan-200);
+  --primary: var(--brown-700);
+  --primary-hover: var(--brown-900);
+  --on-primary: #ffffff;
+  --accent: var(--rose);
+  --success: #4f7a4a;
+  --danger: #a3433a;
+  --focus: #c98a3e;
+
+  --font-heading: "Fraunces", Georgia, serif;
+  --font-body: "Nunito Sans", system-ui, -apple-system, Segoe UI, sans-serif;
+
+  --radius: 14px;
+  --radius-sm: 8px;
+  --shadow: 0 2px 10px rgba(59, 42, 30, 0.08);
+  --shadow-lg: 0 10px 30px rgba(59, 42, 30, 0.14);
+  --max-width: 1180px;
+  --gutter: 16px;
+}

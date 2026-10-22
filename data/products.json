@@ -1,0 +1,193 @@
+{
+  "categories": [
+    { "id": "glassware", "name": "Glassware", "description": "Personalized champagne flutes, wine glasses & tumblers for weddings, birthdays and toasts.", "image": "images/products/cat-glassware.svg" },
+    { "id": "christmas", "name": "Christmas Ornaments", "description": "Custom name, family & keepsake ornaments for the tree.", "image": "images/products/cat-christmas.svg" },
+    { "id": "easter", "name": "Easter Baskets", "description": "Personalized baskets and goodies, filled or empty.", "image": "images/products/cat-easter.svg" },
+    { "id": "shirts", "name": "Custom Shirts", "description": "Tees and sweatshirts with your names, dates and designs.", "image": "images/products/cat-shirts.svg" },
+    { "id": "gifts", "name": "Gifts & More", "description": "Tumblers, signs and one-of-a-kind seasonal pieces.", "image": "images/products/cat-gifts.svg" }
+  ],
+  "products": [
+    {
+      "id": "bride-groom-champagne-flutes",
+      "name": "Mr. & Mrs. Champagne Flutes (Set of 2)",
+      "category": "glassware",
+      "price": 34.0,
+      "compareAtPrice": null,
+      "description": "A pair of elegant champagne flutes personalized with your names and wedding date.\n\nPerfect for the reception toast and a keepsake for years to come.",
+      "images": ["images/products/bride-groom-champagne-flutes.svg"],
+      "options": [
+        { "name": "Lettering Color", "values": [ { "label": "Gold", "priceDelta": 0 }, { "label": "Silver", "priceDelta": 0 }, { "label": "Rose Gold", "priceDelta": 0 } ] }
+      ],
+      "personalization": { "enabled": true, "label": "Names & date", "placeholder": "e.g. Mr. Smith · Mrs. Smith · 06.14.2027", "maxLength": 80, "required": true },
+      "tags": ["wedding", "bridal"],
+      "featured": true,
+      "active": true,
+      "leadTimeDays": 7,
+      "createdAt": "2026-10-22"
+    },
+    {
+      "id": "bridesmaid-wine-glass",
+      "name": "Bridesmaid Stemless Wine Glass",
+      "category": "glassware",
+      "price": 16.0,
+      "compareAtPrice": null,
+      "description": "Stemless wine glass with name and role — Bridesmaid, Maid of Honor, Mother of the Bride and more.",
+      "images": ["images/products/bridesmaid-wine-glass.svg"],
+      "options": [
+        { "name": "Glass Style", "values": [ { "label": "Stemless", "priceDelta": 0 }, { "label": "Stemmed", "priceDelta": 3 } ] }
+      ],
+      "personalization": { "enabled": true, "label": "Name & title", "placeholder": "e.g. Jessica — Maid of Honor", "maxLength": 50, "required": true },
+      "tags": ["wedding", "bridal party"],
+      "featured": false,
+      "active": true,
+      "leadTimeDays": 7,
+      "createdAt": "2026-10-22"
+    },
+    {
+      "id": "family-name-ornament",
+      "name": "Family Name Ornament",
+      "category": "christmas",
+      "price": 14.0,
+      "compareAtPrice": null,
+      "description": "A round keepsake ornament with every family member's name and the year.",
+      "images": ["images/products/family-name-ornament.svg"],
+      "options": [
+        { "name": "Finish", "values": [ { "label": "Clear", "priceDelta": 0 }, { "label": "Frosted", "priceDelta": 2 } ] }
+      ],
+      "personalization": { "enabled": true, "label": "Names & year", "placeholder": "e.g. Mike, Sarah, Ava, Leo — 2026", "maxLength": 100, "required": true },
+      "tags": ["christmas", "family"],
+      "featured": true,
+      "active": true,
+      "leadTimeDays": 5,
+      "createdAt": "2026-10-22"
+    },
+    {
+      "id": "babys-first-christmas-ornament",
+      "name": "Baby's First Christmas Ornament",
+      "category": "christmas",
+      "price": 15.0,
+      "compareAtPrice": null,
+      "description": "Celebrate the little one's first Christmas with their name and birth date.",
+      "images": ["images/products/babys-first-christmas-ornament.svg"],
+      "options": [],
+      "personalization": { "enabled": true, "label": "Baby's name & birth date", "placeholder": "e.g. Olivia · 03.22.2026", "maxLength": 60, "required": true },
+      "tags": ["christmas", "baby"],
+      "featured": false,
+      "active": true,
+      "leadTimeDays": 5,
+      "createdAt": "2026-10-22"
+    },
+    {
+      "id": "personalized-easter-basket",
+      "name": "Personalized Easter Basket",
+      "category": "easter",
+      "price": 32.0,
+      "compareAtPrice": null,
+      "description": "A woven basket with a personalized name tag and bow.\n\nChoose empty or filled with treats and toys.",
+      "images": ["images/products/personalized-easter-basket.svg"],
+      "options": [
+        { "name": "Fill", "values": [ { "label": "Empty", "priceDelta": 0 }, { "label": "Filled — Kids", "priceDelta": 20 }, { "label": "Filled — Teen", "priceDelta": 25 } ] }
+      ],
+      "personalization": { "enabled": true, "label": "Name on basket", "placeholder": "e.g. Emma", "maxLength": 20, "required": true },
+      "tags": ["easter", "kids"],
+      "featured": true,
+      "active": true,
+      "leadTimeDays": 10,
+      "createdAt": "2026-10-22"
+    },
+    {
+      "id": "easter-bunny-tumbler",
+      "name": "Easter Bunny Kids Tumbler",
+      "category": "easter",
+      "price": 18.0,
+      "compareAtPrice": null,
+      "description": "Spill-proof kids tumbler with straw, bunny design and name.",
+      "images": ["images/products/easter-bunny-tumbler.svg"],
+      "options": [],
+      "personalization": { "enabled": true, "label": "Name", "placeholder": "e.g. Noah", "maxLength": 15, "required": true },
+      "tags": ["easter", "kids"],
+      "featured": false,
+      "active": true,
+      "leadTimeDays": 7,
+      "createdAt": "2026-10-22"
+    },
+    {
+      "id": "custom-tee",
+      "name": "Custom T-Shirt",
+      "category": "shirts",
+      "price": 22.0,
+      "compareAtPrice": null,
+      "description": "Soft cotton tee with your custom text or design. Great for family trips, birthdays, teams and events.\n\nTell us your idea in the personalization box — we'll send a proof before pressing.",
+      "images": ["images/products/custom-tee.svg"],
+      "options": [
+        { "name": "Size", "values": [ { "label": "Youth S", "priceDelta": 0 }, { "label": "Youth M", "priceDelta": 0 }, { "label": "Youth L", "priceDelta": 0 }, { "label": "Adult S", "priceDelta": 0 }, { "label": "Adult M", "priceDelta": 0 }, { "label": "Adult L", "priceDelta": 0 }, { "label": "Adult XL", "priceDelta": 0 }, { "label": "Adult 2XL", "priceDelta": 3 }, { "label": "Adult 3XL", "priceDelta": 5 } ] },
+        { "name": "Shirt Color", "values": [ { "label": "White", "priceDelta": 0 }, { "label": "Black", "priceDelta": 0 }, { "label": "Heather Brown", "priceDelta": 0 }, { "label": "Sand", "priceDelta": 0 } ] }
+      ],
+      "personalization": { "enabled": true, "label": "Your text or design idea", "placeholder": "e.g. 'Smith Family Vacation 2027' on front", "maxLength": 200, "required": true },
+      "tags": ["shirts", "custom"],
+      "featured": true,
+      "active": true,
+      "leadTimeDays": 7,
+      "createdAt": "2026-10-22"
+    },
+    {
+      "id": "custom-sweatshirt",
+      "name": "Custom Crewneck Sweatshirt",
+      "category": "shirts",
+      "price": 36.0,
+      "compareAtPrice": null,
+      "description": "Cozy crewneck sweatshirt with your custom text or design.",
+      "images": ["images/products/custom-sweatshirt.svg"],
+      "options": [
+        { "name": "Size", "values": [ { "label": "Adult S", "priceDelta": 0 }, { "label": "Adult M", "priceDelta": 0 }, { "label": "Adult L", "priceDelta": 0 }, { "label": "Adult XL", "priceDelta": 0 }, { "label": "Adult 2XL", "priceDelta": 4 } ] },
+        { "name": "Color", "values": [ { "label": "Oatmeal", "priceDelta": 0 }, { "label": "Mocha", "priceDelta": 0 }, { "label": "Black", "priceDelta": 0 } ] }
+      ],
+      "personalization": { "enabled": true, "label": "Your text or design idea", "placeholder": "e.g. 'Mama' with kids' names on sleeve", "maxLength": 200, "required": true },
+      "tags": ["shirts", "custom"],
+      "featured": false,
+      "active": true,
+      "leadTimeDays": 7,
+      "createdAt": "2026-10-22"
+    },
+    {
+      "id": "custom-name-tumbler",
+      "name": "20 oz Custom Name Tumbler",
+      "category": "gifts",
+      "price": 28.0,
+      "compareAtPrice": 32.0,
+      "description": "Insulated stainless tumbler with lid and straw, personalized with a name or short phrase.",
+      "images": ["images/products/custom-name-tumbler.svg"],
+      "options": [
+        { "name": "Tumbler Color", "values": [ { "label": "White", "priceDelta": 0 }, { "label": "Blush", "priceDelta": 0 }, { "label": "Sage", "priceDelta": 0 }, { "label": "Black", "priceDelta": 0 } ] }
+      ],
+      "personalization": { "enabled": true, "label": "Name or phrase", "placeholder": "e.g. Coach Kelly", "maxLength": 30, "required": true },
+      "tags": ["gift", "teacher"],
+      "featured": false,
+      "active": true,
+      "leadTimeDays": 7,
+      "createdAt": "2026-10-22"
+    }
+  ],
+  "bundles": [
+    {
+      "id": "wedding-toast-set",
+      "name": "Wedding Toast Set",
+      "description": "Mr. & Mrs. champagne flutes plus 4 personalized bridesmaid glasses — everything for the big toast.",
+      "items": [ { "productId": "bride-groom-champagne-flutes", "qty": 1 }, { "productId": "bridesmaid-wine-glass", "qty": 4 } ],
+      "price": 89.0,
+      "images": [],
+      "featured": true,
+      "active": true
+    },
+    {
+      "id": "easter-morning-bundle",
+      "name": "Easter Morning Bundle",
+      "description": "A personalized Easter basket and matching bunny tumbler.",
+      "items": [ { "productId": "personalized-easter-basket", "qty": 1 }, { "productId": "easter-bunny-tumbler", "qty": 1 } ],
+      "price": 45.0,
+      "images": [],
+      "featured": true,
+      "active": true
+    }
+  ]
+}
