@@ -31,7 +31,7 @@ export const config = {
   github: {
     owner: "Automatic-LLC",
     repo: "MamaCraftHouz",
-    branch: "main",
+    branch: "Main",
     catalogPath: "data/products.json",
     imageDir: "images/products",
   },

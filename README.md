@@ -34,10 +34,10 @@ Pages must be served over http rather than opened as files, because the browser 
 
 ## Publish with GitHub Pages (free)
 
-1. Merge this branch into `main`.
-2. Repo **Settings → Pages → Build and deployment**: Source **Deploy from a branch**, Branch **main**, folder **/ (root)**.
+1. Merge this branch into `Main`.
+2. Repo **Settings → Pages → Build and deployment**: Source **Deploy from a branch**, Branch **Main**, folder **/ (root)**.
 3. After about a minute the site is live at `https://<owner>.github.io/MamaCraftHouz/`.
-4. Check that `js/config.js → github.branch` matches the branch Pages publishes from (default `main`),
+4. Check that `js/config.js → github.branch` matches the branch Pages publishes from (here `Main`),
    so admin saves go live.
 
 > GitHub Pages on a **private** repo needs a paid GitHub plan. For free hosting, make the repo public. It
